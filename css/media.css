@@ -1,0 +1,159 @@
+@media only screen and (max-width: 1291px) {
+    .header .wrapper, .info__block, .hide + label ~ div, .hide:checked + label + div, .hide + label {
+        width: 90%;
+    }
+    .header__info {
+        width: 100%;
+    }
+    .way__stages {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 960px) {
+    .header__info {
+        flex-direction: column;
+        width: 70%;
+        height: 90%;
+        align-self: flex-start;
+    }
+    .header__info__text, .header__info__images {
+        width: 100%;
+        height: 50%;
+    }
+    .header__info__text .text_title {
+        font-size: calc(1.7rem + 1vw);
+    }
+    .info__block, .info{
+        height: 682px;
+        flex-wrap: wrap;
+    }
+    .info__block, .hide + label ~ div, .hide:checked + label + div, .hide + label {
+        width: 65%;
+    }
+
+    .hide:checked + label + div {
+        min-height: 250px;
+    }
+    .hide:checked + label + .kostyl {
+        height: 0;
+    }
+    .info__block .info__block__card {
+        width: 50%;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    .info__block__card .wrapper {
+        height: 50%;
+        width: 30%;
+        display: flex;
+        /*justify-content: center;*/
+    }
+    .images__slider__content {
+        width: 600px;
+        height: 384px;
+    }
+    .helper {
+        max-width: 900px;
+        margin-top: -220px;
+    }
+    .way__stages {
+        display: flex;
+        flex-direction: row;
+    }
+    .way__stages__text, .way__stages__nums {
+        flex-direction: column;
+    }
+    .way__stages__nums {width: 10%}
+    .way__stages__text {
+        width: 90%;
+        margin: 0;
+        justify-content: flex-start;
+    }
+
+    .way__stages__text p {
+        margin: 0;
+        height: 80px;
+        width: 100%;
+    }
+    .way__stages__nums__line {
+        height: 40px;
+        width: 5px;
+        transform: rotate(180deg);
+    }
+    .way .text_title {
+        font-size: calc(1.7rem + 1vw);
+    }
+    .form form {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .header {
+        height: 909px;
+    }
+    .header__info__text {height: 70%}
+    .header__info__images {height: 30%}
+    .header__info, .info__block, .header .wrapper, .way__stages
+    {
+        width: 95%;
+    }
+    .images__slider__content, .images__slider {
+        width: 100%;
+    }
+    .form form .primary_btn {
+        width: 100%;
+    }
+    .hide + label ~ div, .hide:checked + label + div, .hide + label, .header .wrapper, .info__block {
+        width: 80%;
+    }
+    .form__text .text_title {
+        text-align: center;
+        font-size: calc(1.7rem + 1vw);
+    }
+    .form__text .text_description {
+        font-size: calc(0.8rem + 1vw);
+    }
+    .info__block__card .wrapper {
+        width: 40%;
+        font-size: calc(0.5rem + 1vw);
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .info__block, .info {
+        height: 1030px;
+    }
+    .info__block {
+
+        flex-direction: column;
+    }
+    .info__block__card{
+        width: 100% !important;
+        height: 20% !important
+    }
+    .info__block__card .wrapper {
+        width: 100%;
+        max-width: 200px;
+        height: 200px;
+    }
+    .info__block__card .wrapper .text_title {margin: 0;}
+    .way {padding: 20px 0 75px;
+        height: 100%;
+        max-height: 1000px;
+    }
+    .way .text_title, .way__stages__text p{
+        height: auto;
+        font-size: calc(0.8rem + 1vw);
+        margin: 5px;
+    }
+    .way .way__stages {height: 100%; margin-top: 50px; justify-content: space-evenly}
+    .demo {padding: 20px 0}
+
+    .hide + label ~ div, .hide:checked + label + div, .hide + label, .header .wrapper, .info__block {
+        width: 60%;
+    }
+    .header .wrapper, .info__block {
+        width: 95%;
+    }
+}
